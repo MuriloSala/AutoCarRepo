@@ -2,7 +2,7 @@
 public class ClasseAutomotores {
 	
 	String corAt;
-	String marcat;
+	String marcaAt;
 	String modeloAt;
 	String tipoAt;
 	
@@ -17,8 +17,31 @@ public class ClasseAutomotores {
 		  return corAt;
 	  }
 	  
-	  public void alterarCor2(String corPar) {
+	  public void alterarCor(String corPar) {
 		  this.corAt = corPar;
+	  }
+	  
+	 
+	  public ClasseAutomotores(String marcaPar) {
+		  super(corPar);
+		  
+		  this.marcaAt = marcaPar;
+	  }
+	
+	  
+		 
+	  public ClasseAutomotores(String modeloPar) {
+		  super(corPar);
+		  
+		  this.marcaAt = modeloPar;
+	  }
+	
+	  
+		 
+	  public ClasseAutomotores(String tipoPar) {
+		  super(corPar);
+		  
+		  this.marcaAt = tipoPar;
 	  }
 	
 
