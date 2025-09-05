@@ -1,10 +1,10 @@
+public class ClasseCarros extends ClasseAutomotores {
 
-public class ClasseCarros extends ClasseAutomotores{
-	float cargaSuportadaAt;
-	
-	public ClasseCarros(String corPar, String tipoPar, tipoPar, float cargaSuportadaPar) {
-		super (corPar);
-		this.cargaSuportadaAt = 
-	}
-	
+    public ClasseCarros() {
+        super();
+    }
+
+    public ClasseCarros(String corAt, String marcaAt, String modeloAt, String tipoAt) {
+        super(corAt, marcaAt, modeloAt, tipoAt);
+    }
 }

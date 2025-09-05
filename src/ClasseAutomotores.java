@@ -1,48 +1,48 @@
-
 public class ClasseAutomotores {
-	
-	String corAt;
-	String marcaAt;
-	String modeloAt;
-	String tipoAt;
-	
-	  public ClasseAutomotores() {
-	    }
-	  
-	  public ClasseAutomotores(String corPar) {
-		  this.corAt = corPar;
-	  }
-	  
-	  public String pegarCor() {
-		  return corAt;
-	  }
-	  
-	  public void alterarCor(String corPar) {
-		  this.corAt = corPar;
-	  }
-	  
-	 
-	  public ClasseAutomotores(String marcaPar) {
-		  super(corPar);
-		  
-		  this.marcaAt = marcaPar;
-	  }
-	
-	  
-		 
-	  public ClasseAutomotores(String modeloPar) {
-		  super(corPar);
-		  
-		  this.marcaAt = modeloPar;
-	  }
-	
-	  
-		 
-	  public ClasseAutomotores(String tipoPar) {
-		  super(corPar);
-		  
-		  this.marcaAt = tipoPar;
-	  }
-	
+    String corAt;
+    String marcaAt;
+    String modeloAt;
+    String tipoAt;
 
+    public ClasseAutomotores() {
+    }
+
+    public ClasseAutomotores(String corAt, String marcaAt, String modeloAt, String tipoAt) {
+        this.corAt = corAt;
+        this.marcaAt = marcaAt;
+        this.modeloAt = modeloAt;
+        this.tipoAt = tipoAt;
+    }
+
+    public String getCorAt() {
+        return corAt;
+    }
+
+    public void setCorAt(String corAt) {
+        this.corAt = corAt;
+    }
+
+    public String getMarcaAt() {
+        return marcaAt;
+    }
+
+    public void setMarcaAt(String marcaAt) {
+        this.marcaAt = marcaAt;
+    }
+
+    public String getModeloAt() {
+        return modeloAt;
+    }
+
+    public void setModeloAt(String modeloAt) {
+        this.modeloAt = modeloAt;
+    }
+
+    public String getTipoAt() {
+        return tipoAt;
+    }
+
+    public void setTipoAt(String tipoAt) {
+        this.tipoAt = tipoAt;
+    }
 }
