@@ -40,5 +40,8 @@ public class ClasseCarros extends ClasseAutomotores {
     public void setTipoAt(String tipoAt) {
         this.tipoAt = tipoAt;
     }
+    
+
+
 
 }
